@@ -60,7 +60,7 @@ agent any
                     //Set Test Duration
                     bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">Duration</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">Duration</stringProp><stringProp name=\\"Argument.value\\">%finalDuration%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -69,7 +69,7 @@ agent any
                     //Set Load for Script 1 PF_Load
                    bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">PF_Load</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">PF_Load</stringProp><stringProp name=\\"Argument.value\\">%finalLoad1%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -78,7 +78,7 @@ agent any
                 //Set Load for Script 2 AA_Load
                    bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">AA_Load</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">AA_Load</stringProp><stringProp name=\\"Argument.value\\">%finalLoad2%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -87,7 +87,7 @@ agent any
                 //Set Load for Script 3 DS_Load
                    bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">DS_Load</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">DS_Load</stringProp><stringProp name=\\"Argument.value\\">%finalLoad3%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -96,7 +96,7 @@ agent any
                 //Set Load for Script 4 DP_Load
                    bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">DP_Load</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">DP_Load</stringProp><stringProp name=\\"Argument.value\\">%finalLoad4%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -105,7 +105,7 @@ agent any
                 //Set Load for Script 5 DM_Load
                    bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">DM_Load</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">DM_Load</stringProp><stringProp name=\\"Argument.value\\">%finalLoad5%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -114,7 +114,7 @@ agent any
                 //Set TPS for Script 1 PF_TPS
                    bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">PF_TPS</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">PF_TPS</stringProp><stringProp name=\\"Argument.value\\">%finalTPS1%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -123,7 +123,7 @@ agent any
                 //Set TPS for Script 2 PF_TPS
                    bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">AA_TPS</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">AA_TPS</stringProp><stringProp name=\\"Argument.value\\">%finalTPS2%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -132,7 +132,7 @@ agent any
                 //Set TPS for Script 3 DS_TPS
                    bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">DS_TPS</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">DS_TPS</stringProp><stringProp name=\\"Argument.value\\">%finalTPS3%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -141,7 +141,7 @@ agent any
                 //Set TPS for Script 4 DS_TPS
                    bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">DP_TPS</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">DP_TPS</stringProp><stringProp name=\\"Argument.value\\">%finalTPS4%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -150,7 +150,7 @@ agent any
                  //Set TPS for Script 5 DS_TPS
                    bat '''  
                         setlocal enabledelayedexpansion
-                        set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+                        set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
                         set  "searchstr=<stringProp name=\\"Argument\\.name\\">DM_TPS</stringProp><stringProp name=\\"Argument\\.value\\">([0-9]+)</stringProp>"
                         set "replacestr=<stringProp name=\\"Argument.name\\">DM_TPS</stringProp><stringProp name=\\"Argument.value\\">%finalTPS5%</stringProp>"
                         powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -166,7 +166,7 @@ agent any
                 bat '''	
                 @echo off
                 setlocal enabledelayedexpansion
-				set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+				set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
 				set "searchstr=<Arguments guiclass=\\"ArgumentsPanel\\" testclass=\\"Arguments\\" testname=\\"%TestType%\\" enabled=\\"false\\">"
                 set "replacestr=<Arguments guiclass=\\"ArgumentsPanel\\" testclass=\\"Arguments\\" testname=\\"%TestType%\\" enabled=\\"true\\">"
 				powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
@@ -179,7 +179,7 @@ agent any
 				bat """
 					mkdir C:\\Users\\Rene\\Documents\\JMeterScripts\\Results\\${BUILD_NUMBER}_${TestType}\\HTML_Reports\\
 					cd C:\\apache-jmeter-5.5\\bin
-					jmeter -n -t C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx -l C:\\Users\\Rene\\Documents\\JMeterScripts\\Results\\${BUILD_NUMBER}_${TestType}\\PurchaseFlightReport.csv -e -o C:\\Users\\Rene\\Documents\\JMeterScripts\\Results\\${BUILD_NUMBER}_${TestType}\\HTML_Reports\\
+					jmeter -n -t C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx -l C:\\Users\\Rene\\Documents\\JMeterScripts\\Results\\${BUILD_NUMBER}_${TestType}\\PurchaseFlightReport.csv -e -o C:\\Users\\Rene\\Documents\\JMeterScripts\\Results\\${BUILD_NUMBER}_${TestType}\\HTML_Reports\\
 				"""
 			}
 		}
@@ -188,7 +188,7 @@ agent any
 				bat '''
 				    @echo off
 				    setlocal enabledelayedexpansion
-    				set "filename=C:\Users\Rene\Documents\GitHub\Jenkins_Jmeter.jmx"
+    				set "filename=C:\\Users\\Rene\\Documents\\GitHub\\Jenkins_Jmeter.jmx"
     				set "searchstr=<Arguments guiclass=\\"ArgumentsPanel\\" testclass=\\"Arguments\\" testname=\\"%TestType%\\" enabled=\\"true\\">"
                     set "replacestr=<Arguments guiclass=\\"ArgumentsPanel\\" testclass=\\"Arguments\\" testname=\\"%TestType%\\" enabled=\\"false\\">"
     				powershell -Command "(Get-Content \'%filename%\') -replace \'%searchstr%\', \'%replacestr%\' | Set-Content \'%filename%\'"
