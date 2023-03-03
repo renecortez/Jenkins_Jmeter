@@ -1,7 +1,7 @@
 pipeline{
 agent any
     stages {
-        stage('Reading Scenario Parameters') {
+        /*stage('Reading Scenario Parameters') {
           steps {
                 script{
                     params.each { key, value ->echo "${key}=${value}"}
@@ -51,7 +51,7 @@ agent any
 					    }
 				    }
                 }
-        }
+        }*/
         
         stage('Seting up Custom Scenario'){
             steps{
