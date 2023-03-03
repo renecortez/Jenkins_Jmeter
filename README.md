@@ -1,2 +1,2 @@
-# Jenkins_Jmeter
-1
+# Jenkins_JMeter_Code
+Save Jmeter Pipeline code to execute Jmeter scenario
