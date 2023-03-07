@@ -27,15 +27,15 @@
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="DS_Load" elementType="Argument">
-            <stringProp name="Argument.name">DS_Load</stringProp><stringProp name="Argument.value">13</stringProp>
+            <stringProp name="Argument.name">DS_Load</stringProp><stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="DP_Load" elementType="Argument">
-            <stringProp name="Argument.name">DP_Load</stringProp><stringProp name="Argument.value">14</stringProp>
+            <stringProp name="Argument.name">DP_Load</stringProp><stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="DM_Load" elementType="Argument">
-            <stringProp name="Argument.name">DM_Load</stringProp><stringProp name="Argument.value">15</stringProp>
+            <stringProp name="Argument.name">DM_Load</stringProp><stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="" elementType="Argument">
@@ -52,15 +52,15 @@
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="DS_TPS" elementType="Argument">
-            <stringProp name="Argument.name">DS_TPS</stringProp><stringProp name="Argument.value">16</stringProp>
+            <stringProp name="Argument.name">DS_TPS</stringProp><stringProp name="Argument.value">10</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="DP_TPS" elementType="Argument">
-            <stringProp name="Argument.name">DP_TPS</stringProp><stringProp name="Argument.value">17</stringProp>
+            <stringProp name="Argument.name">DP_TPS</stringProp><stringProp name="Argument.value">10</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="DM_TPS" elementType="Argument">
-            <stringProp name="Argument.name">DM_TPS</stringProp><stringProp name="Argument.value">18</stringProp>
+            <stringProp name="Argument.name">DM_TPS</stringProp><stringProp name="Argument.value">10</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="" elementType="Argument">
